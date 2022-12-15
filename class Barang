@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package uap;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author samsung
+ */
+public class Barang {
+    private String barcode;
+    private String expired;
+    private Kategori kategori = new ArrayList<Kategori>;
+
+    public String getBarcode() {
+        return barcode;
+    }
+
+    public void setBarcode(String barcode) {
+        this.barcode = barcode;
+    }
+
+    public String getExpired() {
+        return expired;
+    }
+
+    public void setExpired(String expired) {
+        this.expired = expired;
+    }
+    
+    
+    public void isExpired(){
+    }
+    public addKategori(){
+        
+    }
+    
+}
